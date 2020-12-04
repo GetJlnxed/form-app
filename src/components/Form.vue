@@ -44,8 +44,7 @@ export default {
     };
   },
   methods: {
-    submit: function (e) {
-      e.preventDefautl;
+    submit: function () {
       const isvalid = this.checkValid();
       isvalid
         ? (this.submited = true)
